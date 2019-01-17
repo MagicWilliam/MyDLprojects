@@ -1,2 +1,2 @@
 # MyDLprojects
-projects of interest and for practice
+The AItest project contains 2 versions of Emojify which achieve predicting one's status by reading one's text. Such as turning "I'm feeling good" into :). The basic version is featured with embedding layer and bidirectional LSTM. The attention version is featured with embedding layer, bidirectional LSTM and attention model. The embedding layer load weights from the pretrain word embeddings stored in "glove.6B.50d.txt" that is available online. The tiny training set X contains 127 sentences (strings) and Y contains a integer label between 0 and 4 corresponding to an emoji for each sentence (see img\data_set.png). 
